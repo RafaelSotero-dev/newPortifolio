@@ -1,0 +1,49 @@
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+  }
+  
+  .conteinerNome { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 400px;
+    height: 500px;
+    margin-left: 8rem;
+  }
+  
+  .conteinerNome h1 {
+    font-size: 104px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    padding: none;
+    transition: padding 0.3s 0s ease;
+    transition: all 0.3s 0s ease;
+  }
+  
+  .conteinerNome h1:hover {
+    padding: 0rem 2rem;
+  }
+  
+  .conteinerNome h1 .ColorWhite { 
+    color: white;
+   }
+  
+  .conteinerNome h1 .ColorRed {
+    color: rgb(241, 43, 57);
+  }
+  
+  .conteinerNome h1 a {
+    text-decoration: none;
+  }
+  
+  @media (max-width: 600px) {
+    .conteinerNome h1 {
+      font-size: 74px;
+      transition: all 0.3s 0s ease;
+    }
+  }
